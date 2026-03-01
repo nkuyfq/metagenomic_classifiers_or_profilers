@@ -5,3 +5,4 @@ According to previous studies, both taxonomic classifiers and profilers are comm
 ## The tools
 I will list the tools from the following fields: sequencing platforms, strategy and database. 
 | Name  | Sequencing platforms | Strategy | Database |
+|-------|---------|------|------|
