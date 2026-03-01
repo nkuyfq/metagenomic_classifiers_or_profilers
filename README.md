@@ -7,3 +7,7 @@ I will list the tools from the following fields: sequencing platforms, strategy 
 | Name  | Sequencing platforms | Strategy | Database |
 |-------|---------|------|------|
 |Kraken2|Short reads|k-mer|DNA|
+|Sourmash|Short and long reads|k-mer|DNA|
+|Taxor|Long reads|k-mer|DNA|
+|Sylph|Short and long reads|k-mer|DNA|
+|Xtree|Short and long reads|k-mer|DNA|
