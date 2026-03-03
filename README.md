@@ -6,7 +6,10 @@ According to previous studies, both taxonomic classifiers and profilers are comm
 I will list the tools from the following fields: sequencing platforms, strategy and database. 
 | Name  | Sequencing platforms | Strategy | Database | Reference genomes/Pathogenic spectrum | Publish Year |
 |:---------:|:-----------:|:---------:|:----------:|:---------:|:---------:|
+|[centrifuge](https://ccb.jhu.edu/software/centrifuge/manual.shtml)|Short reads|Burrows-Wheeler transform (BWT) and the Ferragina-Manzini (FM) index|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2016|
 |[Kraken2](https://github.com/DerrickWood/kraken2)|Short reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2019|
+|[mOTUs 3](https://motu-tool.org/index.html)|Short reads|marker gene|DNA|Bacteria and Archaea|2022|
+|[MetaPhlAn4](https://huttenhower.sph.harvard.edu/metaphlan)|Short reads|marker gene|DNA|Bacteria, Archaea and Eukaryotes|2023|
 |[KMCP](https://github.com/shenwei356/kmcp)|Short reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2023|
 |[SingleM](https://wwood.github.io/singlem/)|Short reads|marker gene|DNA|Bacteria and Archaea|2024|
 |[MetaKSSD](https://github.com/yhg926/MetaKSSD)|Short reads|marker gene|DNA|Bacteria and Archaea|2025|
