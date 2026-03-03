@@ -13,3 +13,8 @@ I will list the tools from the following fields: sequencing platforms, strategy 
 |[Xtree](https://github.com/two-frontiers-project/2FP-XTree)|Short and long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2025|
 |[Metamaps](https://github.com/DiltheyLab/MetaMaps)|Long reads|minimizer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2019|
 |[Melon](https://github.com/xinehc/melon)|Long reads|marker gene|DNA|Bacteria and Archaea|2024|
+|[Lemur + Magnet](https://github.com/treangenlab/lemur)|Long reads|marker gene|DNA|Bacteria, Archaea and Fungi|2024|
+|[MetaKSSD](https://github.com/yhg926/MetaKSSD)|Short reads|marker gene|DNA|Bacteria and Archaea|2025|
+|[Meteor2](https://github.com/pythseq/meteor2)|Short reads|gene catalogue|DNA|Bacteria, Archaea and Eukaryotes|2025|
+|[SingleM](https://wwood.github.io/singlem/)|Short reads|marker gene|DNA|Bacteria and Archaea|2024|
+
