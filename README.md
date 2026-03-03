@@ -17,4 +17,4 @@ I will list the tools from the following fields: sequencing platforms, strategy 
 |[MetaKSSD](https://github.com/yhg926/MetaKSSD)|Short reads|marker gene|DNA|Bacteria and Archaea|2025|
 |[Meteor2](https://github.com/pythseq/meteor2)|Short reads|gene catalogue|DNA|Bacteria, Archaea and Eukaryotes|2025|
 |[SingleM](https://wwood.github.io/singlem/)|Short reads|marker gene|DNA|Bacteria and Archaea|2024|
-
+|[KMCP](https://github.com/shenwei356/kmcp)|Short reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2023|
