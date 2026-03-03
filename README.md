@@ -11,3 +11,5 @@ I will list the tools from the following fields: sequencing platforms, strategy 
 |[Taxor](https://github.com/JensUweUlrich/Taxor)|Long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2024|
 |[Sylph](https://github.com/bluenote-1577/sylph)|Short and long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2024|
 |[Xtree](https://github.com/two-frontiers-project/2FP-XTree)|Short and long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2025|
+|[Metamaps](https://github.com/DiltheyLab/MetaMaps)|Long reads|minimizer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2019|
+|[Melon](https://github.com/xinehc/melon)|Long reads|marker gene|DNA|Bacteria and Archaea|2024|
