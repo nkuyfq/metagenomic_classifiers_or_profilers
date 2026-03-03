@@ -5,7 +5,7 @@ According to previous studies, both taxonomic classifiers and profilers are comm
 ## The tools
 I will list the tools from the following fields: sequencing platforms, strategy and database. 
 | Name  | Sequencing platforms | Strategy | Database | Reference genomes/Pathogenic spectrum | Publish Year |
-|:-------:|:---------:|:------:|:------:|:------:|:------:|
+|:---------:|:-----------:|:---------:|:----------:|:---------:|:---------:|
 |[Kraken2](https://github.com/DerrickWood/kraken2)|Short reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2019|
 |[Sourmash](https://sourmash.readthedocs.io/en/latest/index.html)|Short and long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2022|
 |[Taxor](https://github.com/JensUweUlrich/Taxor)|Long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2024|
