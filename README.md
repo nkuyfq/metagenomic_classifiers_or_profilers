@@ -22,5 +22,5 @@ I will list the tools from the following fields: sequencing platforms, strategy 
 |[Sylph](https://github.com/bluenote-1577/sylph)|Short and long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2024|
 |[Xtree](https://github.com/two-frontiers-project/2FP-XTree)|Short and long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2025|
 ## The tools or wrappers for downloading reference genomes
-I will list the tools or wrappers for downloading reference genomes from NCBI RefSeq or GenBank.
+I will list the tools or wrappers for downloading reference genomes from NCBI RefSeq or GenBank.  
 1.**centrifuge-download** from Centrifuge
