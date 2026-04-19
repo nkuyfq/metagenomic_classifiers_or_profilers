@@ -33,4 +33,7 @@ It's provided by the classifier [Kraken2](https://github.com/DerrickWood/kraken2
 
 Note: this wrapper will only download complete genomes of pathogens from NCBI **RefSeq**, which might not suit your needs. The pre-built databases can be accessed through https://benlangmead.github.io/aws-indexes/k2.
 
+### 3.genome_updater
+I will directly quote the introduction from [genome_updater](https://github.com/pirovc/genome_updater). It is a bash script that downloads and updates (non-redundant) snapshots of the NCBI Genomes repository (RefSeq/GenBank) with advanced filters, detailed logs and reports, file integrity checks (MD5, gzip), NCBI taxonomy and GTDB integration and support for parallel downloads. genome_updater uses the assembly_summary.txt to retrieve data. Moreover, genome_updater is able to filter or keep a limited number of assemblies for each taxa. For example, *Escherichia coli* has thousands of genomes in RefSeq, users can choose to download only a small subset of *E. coli* sequences by using the "-A" option.
 
+Note: The format change of **ftp_path** field in the assembly_summary.txt might cause download failures when you use genome_updater in some cases. So be careful to check the supported format (e.g., https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/036/600/855/GCF_036600855.1_ASM3660085v1). If the last character of **ftp_path** field is a slash, this bash script will fail to run.
