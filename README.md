@@ -22,7 +22,6 @@ I will list the tools from the following fields: sequencing platforms, strategy 
 |[Sylph](https://github.com/bluenote-1577/sylph)|Short and long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2024|
 |[Xtree](https://github.com/two-frontiers-project/2FP-XTree)|Short and long reads|k-mer|DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2025|
 ## The tools or wrappers for downloading reference genomes
-I will list the tools or wrappers for downloading reference genomes from NCBI RefSeq or GenBank.
-
-1.**centrifuge-download** from Centrifuge
+I will list the tools or wrappers for downloading reference genomes from NCBI RefSeq or GenBank.  
+1.**centrifuge-download** from Centrifuge  
 It's provided by the classifier Centrifuge [Centrifuge](https://ccb.jhu.edu/software/centrifuge/manual.shtml). Based on the **ftp_path** field in the assembly_summary.txt downloaded from, for example, the RefSeq (https://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/assembly_summary.txt) or GenBank Bacteria (https://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/assembly_summary.txt) directory, this Perl wrapper can download complete genomes or scaffolds of Archaea, Bacteria, Fungi, Invertebrate, Protozoa, Vertebrate and Virus from NCBI RefSeq and GenBank with multi-threads. It's suitable for building index for Centrifuge. Anyway, the downloaded sequences are also useful for other classifiers to build custom databases, like [Kraken2](https://github.com/DerrickWood/kraken2), [Sourmash](https://sourmash.readthedocs.io/en/latest/index.html) and [Sylph](https://github.com/bluenote-1577/sylph).
