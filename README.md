@@ -3,7 +3,7 @@ A repository recording state-of-the-art alignment-based taxonomic classifiers or
 ## Introduction
 According to previous studies, both taxonomic classifiers and profilers are commonly used in shotgun metagenomics applications which are based on the second or third sequencing technologies. This is typically done by comparing sequencing reads to a database with reference sequences. Notably, there have been so many tools developed for such aims. And scientists are still developing new tools surpassing the earlier ones, especially for the third sequencing technologies which are usually characterized by long read and high error rates. I am trying to track the dynamics of these tools.
 ## The classifiers or profilers
-I will list the tools from the following fields: sequencing platforms, strategy and database. 
+I will list the tools from the following fields: sequencing platforms, strategy and so on. 
 | Name  | Sequencing platforms | Strategy | Type | Reference genomes/Pathogenic spectrum | Publish Year |
 |:---------:|:-----------:|:---------:|:----------:|:---------:|:---------:|
 |[Centrifuge](https://ccb.jhu.edu/software/centrifuge/manual.shtml)|Short reads|Burrows-Wheeler transform (BWT) and the Ferragina-Manzini (FM) index|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2016|
@@ -21,6 +21,9 @@ I will list the tools from the following fields: sequencing platforms, strategy 
 |[Sourmash](https://sourmash.readthedocs.io/en/latest/index.html)|Short and long reads|k-mer|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2022|
 |[Sylph](https://github.com/bluenote-1577/sylph)|Short and long reads|k-mer|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2024|
 |[Xtree](https://github.com/two-frontiers-project/2FP-XTree)|Short and long reads|k-mer|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2025|
+
+According to a previous study (PMID: 33986544), metagenomic classifiers or profilers report one of two fundamentally different types of relative abundance: sequence abundance or taxonomic abundance. For example, the raw output of DNA-to-DNA methods is the relative abundance of a given taxon calculated as the proportion of sequences assigned to it out of the total number of sequences—that is, sequence abundance. By contrast, DNA-to-marker methods directly output the relative abundance of each taxon calculated as the number of genomes or cells of that taxon relative to the total number of genomes or cells detected—that is, taxonomic abundance. The distinction between the two types of relative abundance should be carefully considered.
+
 ## The tools or wrappers for downloading reference genomes
 I will list the tools or wrappers for downloading reference genomes from NCBI RefSeq or GenBank.  
 ### 1.**centrifuge-download** from Centrifuge  
