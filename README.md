@@ -9,7 +9,7 @@ The analysis strategy, sequencing platforms and other metadata of these tools ar
 |[Centrifuge](https://ccb.jhu.edu/software/centrifuge/manual.shtml)|Short reads|Burrows-Wheeler transform (BWT) and the Ferragina-Manzini (FM) index|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2016|
 |[Kraken2](https://github.com/DerrickWood/kraken2)|Short reads|k-mer|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2019|
 |[mOTUs 3](https://motu-tool.org/index.html)|Short reads|marker gene|DNA-to-marker|Bacteria and Archaea|2022|
-|[MetaPhlAn4](https://huttenhower.sph.harvard.edu/metaphlan)|Short reads|marker gene|DNA-to-marker|Bacteria, Archaea and Eukaryotes|2023|
+|[MetaPhlAn4](https://huttenhower.sph.harvard.edu/metaphlan)|Short and long reads|marker gene|DNA-to-marker|Bacteria, Archaea and Eukaryotes|2023|
 |[KMCP](https://github.com/shenwei356/kmcp)|Short reads|k-mer|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2023|
 |[SingleM](https://wwood.github.io/singlem/)|Short reads|marker gene|DNA-to-marker|Bacteria and Archaea|2024|
 |[MetaKSSD](https://github.com/yhg926/MetaKSSD)|Short reads|marker gene|DNA-to-marker|Bacteria and Archaea|2025|
