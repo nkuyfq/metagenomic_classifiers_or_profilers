@@ -19,6 +19,7 @@ The analysis strategy, sequencing platforms and other metadata of these tools ar
 |[Taxor](https://github.com/JensUweUlrich/Taxor)|Long reads|k-mer|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2024|
 |[Lemur + Magnet](https://github.com/treangenlab/lemur)|Long reads|marker gene|DNA-to-marker|Bacteria, Archaea and Fungi|2024|
 |[Sourmash](https://sourmash.readthedocs.io/en/latest/index.html)|Short and long reads|k-mer|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2022|
+|[Centrifuger](https://github.com/mourisl/centrifuger)|Short and long reads|Run-Block compressed BWT|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2023|
 |[Sylph](https://github.com/bluenote-1577/sylph)|Short and long reads|k-mer|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2024|
 |[Xtree](https://github.com/two-frontiers-project/2FP-XTree)|Short and long reads|k-mer|DNA-to-DNA|Custom (Bacteria, Archaea, Fungi, Viruses, Protozoa etc.)|2025|
 
